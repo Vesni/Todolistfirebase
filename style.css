@@ -127,3 +127,38 @@ a {
   
   margin-bottom: 10px;
 }
+  body {
+  font-family: "Segoe UI";
+  background: linear-gradient(120deg, #b2cdff, #f5e278);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sign-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  width: 380px;
+  text-align: center;
+}
+input {
+  width: 90%;
+  border-radius: 15px;
+  border: none;
+  background: #f0f0f0;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+}
+
+button {
+  background: #91ff65;
+  color: #fff;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 15px;
+  border: none;
+  padding: 12px 15px;
+}
